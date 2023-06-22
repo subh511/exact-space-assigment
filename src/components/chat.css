@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .chat-container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  .message-thread {
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  .chat-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .username {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .message-text {
+    flex: 1;
+  }
+  
+  .like-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .like-button:hover {
+    background-color: #45a049;
+  }
+  
